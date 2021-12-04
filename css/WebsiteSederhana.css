@@ -1,0 +1,60 @@
+html{
+    position: relative;
+}
+body{
+    margin-bottom: 100px;
+}
+.jumbotron img{
+    width: 250px;
+    border: 1.5px solid #666;
+}
+.gmb img:hover{
+    transform:scale(1.1) ;
+    transition: 2s;
+}
+
+hr{
+    width: 250px;
+    border-top: 2.5px solid #999;
+    padding-bottom: 50px;
+}
+
+section{
+    min-height: 600px;
+}
+
+.Portfolio{
+    background-color: #eee;
+    padding-bottom: 200px;
+}
+
+.Kontak{
+    padding-bottom: 200px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background:#333;
+    padding-top: 30px;
+}
+footer p{
+    color:white;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color:salmon;
+    transition: 1.5s;
+}
+footer img:hover{
+    transform: scale(1.4);
+    transition: 1s;
+}
+.btn:hover{
+    transform: scale(1.05);
+    transition: 1.3s;
+}
